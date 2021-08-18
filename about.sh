@@ -2,7 +2,7 @@
 
 clear
 echo -e "================================================="
-echo -e "#     Premium Auto Script By Geo                #"
+echo -e "#     Premium Auto Script By SSH Seddang        #"
 echo -e "#-----------------------------------------------#"
 echo -e "# For Debian 9 & Debian 10 64 bit               #"
 echo -e "# For Ubuntu 18.04 & Ubuntu 20.04 64 bit        #"

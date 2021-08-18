@@ -14,7 +14,7 @@ echo "Please Contact Admin"
 echo "Telegram t.me/sshsedang4"
 echo "WA 082311190332"
 exit 0
-
+fi
 clear 
 cat /usr/bin/bannerku | lolcat
 echo -e ""

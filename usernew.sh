@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Script By Geo"
+echo "Script By SSH SEDANG"
 clear
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/v2ray/domain)
@@ -69,5 +69,5 @@ echo -e "Created  : $created"
 echo -e "Expired   : $exp"
 echo -e "==============================="
 echo -e ""
-echo -e "Script By @sampiiiiu"
+echo -e "Script By SSH SEDANG"
 echo -e ""

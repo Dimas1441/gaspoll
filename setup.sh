@@ -52,9 +52,9 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=SSH SEDANG
-organizationalunit=SSH SEDANG
-commonname=SSH SEDANG
+organization=SSHSEDANG
+organizationalunit=SSHSEDANG
+commonname=SSHSEDANG
 email=admin@sshsedang.my.id
 
 # simple password minimal

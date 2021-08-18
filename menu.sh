@@ -9,7 +9,7 @@ CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
 IPVPS=$(curl -s ifconfig.me/ip )
 echo -e ""
-echo -e "SSH SEDANG"
+echo -e "SSH SEDANG NETWORK"
 echo -e ""
 echo -e "$m-----------------------------------------------------------------$y"
 echo -e "$m1 IP Vps       : $IPVPS"

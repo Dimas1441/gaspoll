@@ -8,7 +8,7 @@ Langkah 2 :
 
 rm -rf setup.sh && wget https://github.com/busyloop/lolcat/archive/master.zip && unzip master.zip && cd lolcat-master/bin && gem install lolcat && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt install curl && wget https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/setup.sh && apt update && apt install dos2unix && dos2unix setup.sh && chmod +x setup.sh && ./setup.sh
 
-# Auto Installer VPS Oleh SSH Sedang
+# For Your Information
 
 For :
 - Debian 9 & Debian 10 64 bit
@@ -25,6 +25,6 @@ Thanks To :
 - Geo
 
 Info :
-Rebuild By SSH SEDANG NETWORK
-Contact : t.me/sshsedang4        
-Whatsapp : 082311190332
+- Rebuild By SSH SEDANG NETWORK
+- Contact : t.me/sshsedang4        
+- Whatsapp : 082311190332

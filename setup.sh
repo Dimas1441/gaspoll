@@ -277,8 +277,9 @@ iptables-restore -t < /etc/iptables.up.rules
 netfilter-persistent save
 netfilter-persistent reload
 
-# LOLCAT
-wget https://github.com/busyloop/lolcat/archive/master.zip && unzip master.zip && cd lolcat-master/bin && gem install lolcat
+# teks berwarna
+apt-get -y install ruby
+gem install lolcat
 
 # xml parser
 cd

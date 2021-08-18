@@ -2,7 +2,7 @@
 # Debian 9 & 10 64bit
 # Ubuntu 18.04 & 20.04 bit
 # Centos 7 & 8 64bit 
-# By geo
+# By ssh sedang
 # ==================================================
 
 
@@ -89,10 +89,10 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O add-wg "https://raw.githubusercontent.com/ADITYAH2/gaspoll/main/add-wg.sh"
-wget -O del-wg "https://raw.githubusercontent.com/ADITYAH2/gaspoll/main/del-wg.sh"
-wget -O cek-wg "https://raw.githubusercontent.com/ADITYAH2/gaspoll/main/cek-wg.sh"
-wget -O renew-wg "https://raw.githubusercontent.com/ADITYAH2/gaspoll/main/renew-wg.sh"
+wget -O add-wg "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/add-wg.sh"
+wget -O del-wg "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/del-wg.sh"
+wget -O cek-wg "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/cek-wg.sh"
+wget -O renew-wg "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/renew-wg.sh"
 chmod +x add-wg
 chmod +x del-wg
 chmod +x cek-wg

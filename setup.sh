@@ -493,8 +493,8 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : SSH SEDANG"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/sshsedang4"  | tee -a log-install.txt
+echo "   - Dev/Main                : SSH SEDANG NETWORK"  | tee -a log-install.txt
+echo "   - Telegram                : t.me/sshsedang4"  | tee -a log-install.txt
 echo "   - Instagram               : @lakuandri"  | tee -a log-install.txt
 echo "   - Whatsapp                : 082311190332"  | tee -a log-install.txt
 echo "   - Facebook                : fb.com/andrie.s.wibowo3" | tee -a log-install.txt

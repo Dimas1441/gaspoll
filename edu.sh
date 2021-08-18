@@ -3,14 +3,14 @@
 # ====================================
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/edu-ssh https://raw.githubusercontent.com/ADITYAH2/gaspoll/main/proxy-template.py
+wget -q -O /usr/local/bin/edu-ssh https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/proxy-template.py
 chmod +x /usr/local/bin/edu-ssh
 
 # Installing Service
 cat > /etc/systemd/system/edussh-nontls.service << END
 [Unit]
-Description=Ssh Websocket By GEO GABUT
-Documentation=https://t.me/sampiiiiu
+Description=Ssh Websocket By SSH SEDANG
+Documentation=https://t.me/sshsedang4
 After=network.target nss-lookup.target
 
 [Service]
@@ -33,8 +33,8 @@ systemctl restart edussh-nontls
 # Installing Service
 cat > /etc/systemd/system/edussh-tls.service << END
 [Unit]
-Description=Ssh Websocket By Geo Gabut
-Documentation=https://t.me/sampiiiiu
+Description=Ssh Websocket By SSH SEDANG
+Documentation=https://t.me/sshsedang4
 After=network.target nss-lookup.target
 
 [Service]
@@ -58,15 +58,15 @@ systemctl restart edussh-tls
 # =================================
 
 # Getting Ovpn Ws Template
-wget -q -O /usr/local/bin/edu-ovpn https://raw.githubusercontent.com/ADITYAH2/gaspoll/main/edu-op.py
+wget -q -O /usr/local/bin/edu-ovpn https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/edu-op.py
 chmod +x /usr/local/bin/edu-ovpn
 
 
 # Installing Service Ovpn Websocket
 cat > /etc/systemd/system/edu-ovpn.service << END
 [Unit]
-Description=Ovpn Websocket By GEO GABUT
-Documentation=https://t.me/sampiiiiu
+Description=Ovpn Websocket By SSH SEDANG
+Documentation=https://t.me/sshsedang4
 After=network.target nss-lookup.target
 
 [Service]
@@ -92,6 +92,6 @@ echo -e "Done Install Ssh & Ovpn Websocket"
 echo -e "==============================="
 echo -e "PORT SSH NONTLS : 2095"
 echo -e "PORT SSH TLS         : 443"
-echo -e "PORT OVPN WS B    : 2082"
+echo -e "PORT OVPN WS    : 2082"
 echo -e "==============================="
-echo -e "Script By GEO GABUT"
+echo -e "Script By SSH SEDANG"

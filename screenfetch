@@ -2629,7 +2629,12 @@ asciiText () {
 "$c3           .o:$c2\`.syhhhhhhh/$c3.oo++o\`     %s"
 "$c2               /osyyyyyyo$c3++ooo+++/    %s"
 "$c2                   \`\`\`\`\` $c3+oo+++o\:    %s"
-"$c3                          \`oo++.      %s")
+"$c3                          \`oo++.    
+
+" $c2 Script By SSH SEDANG NETWORK"
+" $c2 Contact : t.me/sshsedang4"
+" $c2 Type 'menu' to see list menu"
+" $c2 ")
 		;;
 
 		"KDE neon")

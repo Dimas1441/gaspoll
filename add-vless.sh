@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Script By Geo"
+echo "Script By SSH SEDANG"
 clear
 source /var/lib/premium-script/ipvps.conf
 if [[ "$IP" = "" ]]; then
@@ -55,5 +55,5 @@ echo -e "================================="
 echo -e "link none TLS  : ${vlesslink2}"
 echo -e "================================="
 echo -e ""
-echo -e "Script By @sampiiiiu"
+echo -e "Script By SSH SEDANG"
 echo -e ""

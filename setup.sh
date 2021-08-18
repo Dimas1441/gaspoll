@@ -33,12 +33,7 @@ echo "IP=" >> /var/lib/premium-script/ipvps.conf
 # install essential package
 apt-get -y install nano iptables dnsutils openvpn screen whois ngrep unzip unrar
 
-# install neofetch
-echo "deb http://dl.bintray.com/dawidd6/neofetch jessie main" | sudo tee -a /etc/apt/sources.list
-curl -L "https://bintray.com/user/downloadSubjectPublicKey?username=bintray" -o Release-neofetch.key && sudo apt-key add Release-neofetch.key && rm Release-neofetch.key
-apt-get update
-apt-get install neofetch
-
+# install tulisan
 echo "clear" >> .bashrc
 echo 'echo -e "Selamat datang di server $HOSTNAME"' >> .bashrc
 echo 'echo -e "Ketik menu untuk menampilkan daftar perintah"' >> .bashrc

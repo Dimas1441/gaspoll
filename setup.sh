@@ -1,5 +1,9 @@
 #Script By SSH SEDANG Network
 #!/bin/bash
+yl='\e[031;1m'
+bl='\e[36;1m'
+gl='\e[32;1m'
+
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
 		exit 1
@@ -14,9 +18,9 @@ NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 IZIN=$( curl https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/ipvps | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
-echo -e "${green}Permission Accepted...${NC}"
+echo -e "${green}Permission Accepted...${NC}"| lolcat
 else
-echo -e "${red}Permission Denied!${NC}";
+echo -e "${red}Permission Denied!${NC}";| lolcat
 echo "Please Contact Admin"
 echo "Telegram t.me/sshsedang4"
 echo "WA 082311190332"

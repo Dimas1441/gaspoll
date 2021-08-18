@@ -41,10 +41,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=Bismillah
-organizationalunit=Subhanallah
-commonname=Allahuakbar
-email=admin@geolstore.net
+organization=SSH SEDANG
+organizationalunit=SSH SEDANG
+commonname=SSH SEDANG
+email=admin@sshsedang.my.id
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/password"
@@ -483,9 +483,9 @@ echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : SSH SEDANG"  | tee -a log-install.txt
 echo "   - Telegram                : T.me/sshsedang4"  | tee -a log-install.txt
-echo "   - Instagram               : ~"  | tee -a log-install.txt
+echo "   - Instagram               : @lakuandri"  | tee -a log-install.txt
 echo "   - Whatsapp                : 082311190332"  | tee -a log-install.txt
-echo "   - Facebook                : ~" | tee -a log-install.txt
+echo "   - Facebook                : fb.com/andrie.s.wibowo3" | tee -a log-install.txt
 echo "------------------Script Created By SSH SEDANG-----------------" | tee -a log-install.txt
 echo ""
 echo " reboot 10 Sec"

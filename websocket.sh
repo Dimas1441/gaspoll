@@ -1,6 +1,7 @@
 #!/bin/bash
 # Proxy For Edukasi & Imclass
 # Proxy For Telkomsel Opok
+# Script By ssh sedang
 # ==============================
 clear
 echo Installing Websocket-SSH Python
@@ -9,7 +10,7 @@ echo Cek Hak Akses...
 sleep 0.5
 cd
 cd /usr/local/bin/
-wget -O /usr/local/bin/ws-stunnel https://raw.githubusercontent.com/ADITYAH2/gaspoll/main/ws-stunnel
+wget -O /usr/local/bin/ws-stunnel https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/ws-stunnel
 chmod +x /usr/local/bin/ws-stunnel
 
 # Installing Service

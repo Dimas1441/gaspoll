@@ -31,14 +31,14 @@ mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
 
 # install essential package
-apt-get -y install nano iptables dnsutils openvpn screen whois ngrep unzip unrar
+# apt-get -y install nano iptables dnsutils openvpn screen whois ngrep unzip unrar
 
 # install screenfetch
-cd
-wget -O /usr/bin/screenfetch "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/screenfetch"
-chmod +x /usr/bin/screenfetch
-echo "clear" >> .profile
-echo "screenfetch" >> .profile
+#cd
+#wget -O /usr/bin/screenfetch "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/screenfetch"
+#chmod +x /usr/bin/screenfetch
+#echo "clear" >> .profile
+#echo "screenfetch" >> .profile
 
 # MengInstall SSH
 export DEBIAN_FRONTEND=noninteractive

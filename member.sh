@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipv4.wildyproject.com);
-echo "Script Geo"
+echo "Script By SSH SEDANG"
 clear
 echo "---------------------------------------------------"
 echo "USERNAME          EXP DATE          STATUS"

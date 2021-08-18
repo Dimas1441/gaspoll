@@ -33,11 +33,12 @@ echo "IP=" >> /var/lib/premium-script/ipvps.conf
 # install essential package
 apt-get -y install nano iptables dnsutils openvpn screen whois ngrep unzip unrar
 
-# install tulisan
-echo "clear" >> .bashrc
-echo 'echo -e "Selamat datang di server $HOSTNAME"' >> .bashrc
-echo 'echo -e "Ketik menu untuk menampilkan daftar perintah"' >> .bashrc
-echo 'echo -e "Rebuild : SSH SEDANG NETWORK"' >> .bashrc
+# install screenfetch
+cd
+wget -O /usr/bin/screenfetch "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/screenfetch"
+chmod +x /usr/bin/screenfetch
+echo "clear" >> .profile
+echo "screenfetch" >> .profile
 
 # MengInstall SSH
 export DEBIAN_FRONTEND=noninteractive

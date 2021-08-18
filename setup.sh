@@ -30,6 +30,23 @@ fi
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
 
+# install essential package
+apt-get -y install nano iptables dnsutils openvpn screen whois ngrep unzip unrar
+
+echo "clear" >> .bashrc
+echo 'echo -e "Selamat datang di server $HOSTNAME" | lolcat' >> .bashrc
+echo 'echo -e " [1;31m        _                          _   _ _____ _____	[0m"' >> .bashrc
+echo 'echo -e " [1;32m  __ _ (_)_   _ _ __ _ __   __ _  | \ | | ____|_   _|[0m"' >> .bashrc
+echo 'echo -e " [1;33m / _  || | | | | ^__| ^_ \ / _  | |  \| |  _|   | |	[0m"' >> .bashrc
+echo 'echo -e " [1;34m| (_| || | |_| | |  | | | | (_| |_| |\  | |___  | |	[0m"' >> .bashrc
+echo 'echo -e " [1;35m \__,_|/ |\__,_|_|  |_| |_|\__,_(_)_| \_|_____| |_|	[0m"' >> .bashrc
+echo 'echo -e " [1;36m     |__/											[0m"' >> .bashrc
+echo 'echo -e " Script by Fornesia,Rzengineer,Fawzya,Bustami Arifin"' >> .bashrc
+echo 'echo -e "         [1;32mModified by Umar Ajurna[0m             "' >> .bashrc
+echo 'echo -e ""' >> .bashrc
+echo 'echo -e "Ketik menu untuk menampilkan daftar perintah"' >> .bashrc
+echo 'echo -e ""' >> .bashrc
+
 # MengInstall SSH
 export DEBIAN_FRONTEND=noninteractive
 MYIP=$(wget -qO- ipv4.wildyproject.com);

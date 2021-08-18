@@ -58,10 +58,8 @@ ceklim
 10)
 restart
 ;;
-x)
-menu
-;;
 *)
-echo "Please enter an correct number"
+clear
+menu
 ;;
 esac

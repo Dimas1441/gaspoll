@@ -2,7 +2,7 @@
 
 Langkah 1 :
 
-apt update && apt upgrade -y && update-grub && sleep 2 && reboot
+apt install wget && apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 
 Langkah 2 :
 

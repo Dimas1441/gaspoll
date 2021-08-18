@@ -17,8 +17,8 @@ echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
 echo "Please Contact Admin"
-echo "Telegram t.me/sampiiiiu"
-echo "WA 085333790161"
+echo "Telegram t.me/sshsedang4"
+echo "WA 082311190332"
 rm -f setup.sh
 exit 0
 fi
@@ -481,12 +481,12 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : Geo"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/sampiiiiu"  | tee -a log-install.txt
+echo "   - Dev/Main                : SSH SEDANG"  | tee -a log-install.txt
+echo "   - Telegram                : T.me/sshsedang4"  | tee -a log-install.txt
 echo "   - Instagram               : ~"  | tee -a log-install.txt
-echo "   - Whatsapp                : 085333790161"  | tee -a log-install.txt
+echo "   - Whatsapp                : 082311190332"  | tee -a log-install.txt
 echo "   - Facebook                : ~" | tee -a log-install.txt
-echo "------------------Script Created By Geo-----------------" | tee -a log-install.txt
+echo "------------------Script Created By SSH SEDANG-----------------" | tee -a log-install.txt
 echo ""
 echo " reboot 10 Sec"
 sleep 10

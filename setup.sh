@@ -283,8 +283,8 @@ apt-get -y install ruby
 gem install lolcat
 
 # xml parser
-cd
-apt install -y libxml-parser-perl
+#cd
+#apt install -y libxml-parser-perl
 
 # banner /etc/issue.net
 wget -O /etc/issue.net "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/issue.net"

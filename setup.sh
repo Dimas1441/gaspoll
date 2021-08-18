@@ -262,6 +262,15 @@ iptables-restore -t < /etc/iptables.up.rules
 netfilter-persistent save
 netfilter-persistent reload
 
+# xml parser
+cd
+apt install -y libxml-parser-perl
+
+# banner /etc/issue.net
+wget -O /etc/issue.net "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/issue.net"
+echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config
+sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
+
 # download script
 cd /usr/bin
 wget -O add-host "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/add-host.sh"

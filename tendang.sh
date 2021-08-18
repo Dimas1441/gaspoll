@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script by : geo
+# Script by : SSH SEDANG
 #!/bin/bash
 clear
 MAX=1

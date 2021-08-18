@@ -59,7 +59,7 @@ ceklim
 restart
 ;;
 x)
-exit
+menu
 ;;
 *)
 echo "Please enter an correct number"

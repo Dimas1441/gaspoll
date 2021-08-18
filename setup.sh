@@ -22,8 +22,8 @@ echo -e "${green}Permission Accepted...${NC}"| lolcat
 else
 echo -e "${red}Permission Denied!${NC}";
 echo "Please Contact Admin"| lolcat
-echo "Telegram t.me/sshsedang4"
-echo "WA 082311190332"
+echo "Telegram : t.me/sshsedang4"
+echo "Whatsapp : 082311190332"
 rm -f setup.sh
 exit 0
 fi

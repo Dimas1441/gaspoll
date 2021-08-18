@@ -9,7 +9,7 @@ if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
-echo "Please Contact Admin"
+echo "Please Contact Admin"| lolcat
 echo "Telegram t.me/sshsedang4"
 echo "WA 082311190332"
 exit 0

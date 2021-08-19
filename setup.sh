@@ -334,6 +334,9 @@ wget -O v2raay "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/menu-a
 wget -O ssh "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/menu-all/ssh.sh"
 wget -O sstpp "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/menu-all/sstpp.sh"
 wget -O ssssr "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/menu-all/ssssr.sh"
+wget -O backup "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/backup.sh"
+wget -O autobackup "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/autobackup.sh"
+wget -O rclone "https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/rclone.conf"
 chmod +x add-host
 chmod +x script-info
 chmod +x menu

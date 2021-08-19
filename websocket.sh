@@ -1,7 +1,7 @@
 #!/bin/bash
 # Proxy For Edukasi & Imclass
 # Proxy For Telkomsel Opok
-# Script By ssh sedang
+# Script By SSH SEDANG
 # ==============================
 clear
 echo Installing Websocket-SSH Python

@@ -445,8 +445,10 @@ wget https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/ins-vt.sh && chmo
 #install L2TP
 wget https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 wget https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+#wget https://github.com/${GitUser}/
+GitUser="fisabiliyusri"
 #install WEBSOCKET
-https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
+wget https://raw.githubusercontent.com/${GitUser}/test1/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
 rm -f /root/wg.sh

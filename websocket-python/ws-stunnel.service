@@ -1,0 +1,11 @@
+[Unit]
+Description=SSH Over Websocket Python YNTKTS
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python /usr/local/bin/ws-stunnel.py
+
+[Install]
+WantedBy=multi-user.target

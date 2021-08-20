@@ -197,9 +197,9 @@ socket = a:SO_REUSEADDR=1
 socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
 
-[stunnelws]
-accept = 443
-connect = 127.0.0.1:8880
+#[stunnelws]
+#accept = 443
+#connect = 127.0.0.1:8880
 
 [dropbear]
 accept = 445
@@ -506,7 +506,7 @@ echo "   - V2RAY Vmess None TLS    : 80"  | tee -a log-install.txt
 echo "   - V2RAY Vless TLS         : 2083"  | tee -a log-install.txt
 echo "   - V2RAY Vless None TLS    : 8880"  | tee -a log-install.txt
 echo "   - Trojan                  : 2087"  | tee -a log-install.txt
-echo "   - SSH WS TLS              : 443"  | tee -a log-install.txt
+echo "   - SSH WS TLS              : 2053"  | tee -a log-install.txt
 echo "   - SSH WS TLS              : 2095"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt

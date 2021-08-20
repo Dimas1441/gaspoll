@@ -159,8 +159,8 @@ sed -i 's/Port 22/Port 22/g' /etc/ssh/sshd_config
 # install dropbear
 apt -y install dropbear
 sed -i 's/NO_START=1/NO_START=0/g' /etc/default/dropbear
-sed -i 's/DROPBEAR_PORT=22/DROPBEAR_PORT=44/g' /etc/default/dropbear
-sed -i 's/DROPBEAR_EXTRA_ARGS=/DROPBEAR_EXTRA_ARGS="-p 143 -p 5000 -p 109 -p 77"/g' /etc/default/dropbear
+sed -i 's/DROPBEAR_PORT=22/DROPBEAR_PORT=143/g' /etc/default/dropbear
+sed -i 's/DROPBEAR_EXTRA_ARGS=/DROPBEAR_EXTRA_ARGS="-p 109"/g' /etc/default/dropbear
 echo "/bin/false" >> /etc/shells
 echo "/usr/sbin/nologin" >> /etc/shells
 /etc/init.d/dropbear restart
@@ -199,15 +199,15 @@ socket = r:TCP_NODELAY=1
 
 [stunnelws]
 accept = 443
-connect = 127.0.0.1:2096
+connect = 127.0.0.1:8880
 
 [dropbear]
-accept = 777
-connect = 127.0.0.1:77
+accept = 445
+connect = 127.0.0.1:109
 
 [dropbear]
-accept = 444
-connect = 127.0.0.1:44
+accept = 990
+connect = 127.0.0.1:109
 
 [openvpn]
 accept = 992
@@ -446,7 +446,8 @@ wget https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/ins-vt.sh && chmo
 wget https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 wget https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 #install WEBSOCKET
-wget https://raw.githubusercontent.com/SSHSEDANG4/test1/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
+wget https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/edu.sh && chmod +x edu.sh && ./edu.sh
+wget https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/websocket.sh && chmod +x websocket.sh && ./websocket.sh
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
 rm -f /root/wg.sh
@@ -487,7 +488,7 @@ echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
 echo "   - OpenVPN                 : TCP 1194, UDP 2200, SSL 442"  | tee -a log-install.txt
-echo "   - Stunnel4                : 444, 777"  | tee -a log-install.txt
+echo "   - Stunnel4                : 990"  | tee -a log-install.txt
 echo "   - Dropbear                : 143, 109"  | tee -a log-install.txt
 echo "   - Squid Proxy             : 3128, 8080 (limit to IP Server)"  | tee -a log-install.txt
 echo "   - Badvpn                  : 7100, 7200, 7300"  | tee -a log-install.txt

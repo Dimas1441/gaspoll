@@ -3,7 +3,7 @@
 # ====================================
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/edu-ssh https://raw.githubusercontent.com/ADITYAH2/gaspoll/main/proxy-template.py
+wget -q -O /usr/local/bin/edu-ssh https://raw.githubusercontent.com/SSHSEDANG4/gaspoll/main/proxy-template.py
 chmod +x /usr/local/bin/edu-ssh
 
 # Installing Service
